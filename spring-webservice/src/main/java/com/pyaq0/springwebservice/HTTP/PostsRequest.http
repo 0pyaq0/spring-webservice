@@ -1,0 +1,16 @@
+### 기본 사용
+GET http://localhost:8080/hello
+
+### JSON 사용
+POST https://localhost:8080/posts
+Content-Type: application/json
+
+{
+  "ID": 1,
+  "AUTHOR": "테스터",
+  "CONTENT": "테스트 본문",
+  "TITLE": "테스트 타이틀"
+}
+
+
+
